@@ -9,11 +9,14 @@
   }
 .aside {
     background-color: indianred;
+    text-align: center;
 }
 .footer {
     background-color: #3787d3;
     color: #ffffff;
     text-align: center;
+    position: static;
+    bottom: 0px;
 }
   .row::after {
     content: "";
@@ -44,5 +47,5 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-    .sidebar {height: 500px;}
+    .sidebar {height: 1500px;}
   }
